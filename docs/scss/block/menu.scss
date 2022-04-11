@@ -1,0 +1,30 @@
+.menu {
+  margin: 30px 0 0 15px;
+  display: grid;
+  gap: 10px;
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+    width: 410px;
+    min-width: 330px;
+    margin: 0;
+  }
+  &__link {
+    text-decoration: none;
+    color: #ffffff;
+    @media (min-width: 1068px) {
+      color: #282828;
+    }
+  }
+  &__text {
+    font-size: 18px;
+    font-weight: 600;
+    @media (min-width: 768px) {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+}
