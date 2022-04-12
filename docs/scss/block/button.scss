@@ -19,8 +19,9 @@
   &:hover {
     box-shadow: inset 0 -15px 30px rgba(255, 255, 255, 0.2);
   }
-  &:disabled {
+  &.disabled {
     background: #9ba0b9;
+    box-shadow: none;
   }
   &__link {
     color: #ffffff;
@@ -33,5 +34,8 @@
       font-size: 12px;
       line-height: 18px;
     }
+  }
+  &--form {
+    color: #ffffff;
   }
 }

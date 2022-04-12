@@ -14,11 +14,11 @@
 
   <body class="body">
     <header class="header">
-      <nav class="nav nav--closed nav--nojs header__nav">
+      <nav class="nav nav--closed nav--nojs">
         <button class="nav__toggle" type="button">
           <span class="visually-hidden">Открыть меню</span>
         </button>
-        <a href="#" class="logo header__logo">
+        <a href="#" class="logo">
           <img src="img/logo.svg" alt="«AppInion»" width="81" height="38">
         </a>
         <div class="nav__wrap">
@@ -37,7 +37,7 @@
               <span class="lang-list__arrow arrow"></span>
               <ul class="nav__list sub-lang">
                 <li class="sub-lang__item">
-                  <a href="#ru" class="sub-lang__link nav__link" data-lang="ru">
+                  <a href="#ru" class="sub-lang__link active nav__link" data-lang="ru">
                     <span class="sub-lang__text">Русский</span></a></li>
                 <li class="sub-lang__item">
                   <a href="#en" class="sub-lang__link nav__link" data-lang="en">
@@ -46,12 +46,12 @@
             </li>
           </ul>
           <ul class="nav__list user">
-            <li class="nav__item user__item">
+            <li class="user__item">
               <a href="#" class="nav__link user__link">
                 <span class="nav__text">Вход</span>
               </a>
             </li>
-            <li class="nav__item button">
+            <li class="button">
               <a href="#" class="button__link">
                 <span class="button__text">Подключить бесплатно</span>
               </a>
@@ -60,6 +60,38 @@
         </div>
       </nav>
     </header>
+    <main>
+      <section class="promo">
+        <div class="promo__wrap">
+          <p class="promo__title">Продавай с помощью</p>
+          <p class="promo__subtitle">видео-трансляций!</p>
+          <p class="promo__text">Продавайте ваши товары вживую клиентам вашего сайта. </p>
+          <p class="promo__text">На замену email-формам и чатам с роботами - живые продажи online</p>
+          <form class="promo__form form">
+            <input class="form__style disabled" type="email" name="email" placeholder="Электронный адрес" id="email">
+            <label for="email" class="form__label">*30 дней бесплатно в максимально тарифе!</label>
+            <button class="button form__button button--form disabled" type="submit" value="Отправить"><span
+                class="button__text">Подключить бесплатно</span></button>
+          </form>
+        </div>
+        <div class="promo__foto">
+          <div class="promo__popup popup">
+            <ul class="popup__list">
+              <li class="popup__item ">
+                <p class="popup__title">Live</p>
+                <span class="popup__arrow arrow arrow--popup"></span>
+                <ul class="sub-popup">
+                  <li class="sub-popup__item">
+                    <p class="popup__subtitle">Онлайн-консультация</p>
+                    <p class="popup__text">Доступно с 10:00 до 22:00 по МСК</p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
     <script src="js/app.min.js"></script>
   </body>
 

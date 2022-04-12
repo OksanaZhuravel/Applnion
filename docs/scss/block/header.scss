@@ -1,10 +1,7 @@
 .header {
   width: 100%;
   background-color: #ffffff;
-  &__logo {
-  }
-  &__nav {
-  }
+
   &::after {
     content: '';
     display: block;

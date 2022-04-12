@@ -35,10 +35,35 @@ if (
       arrowActive.classList.toggle('active');
     });
   }
+  let arrowItems = document.querySelector('.popup__item');
+  let arrowsActive = arrowItems.querySelector('.arrow');
+  arrowItems.addEventListener('click', function () {
+    arrowItems.classList.toggle('open');
+    arrowsActive.classList.toggle('active');
+  });
 } else {
   // код для обычных устройств
   body.classList.add('mouse');
   let nav = document.querySelector('.nav');
   nav.classList.remove('nav--closed');
   nav.classList.remove('nav--opened');
+}
+
+let linkItem = document.querySelectorAll('.nav__item');
+for (let i = 0; i < linkItem.length; i++) {
+  let linkActive = linkItem[i].querySelector('.menu__link');
+  linkItem[i].addEventListener('click', function () {
+    // linkItem[i].classList.toggle('open');
+    linkActive.classList.toggle('active');
+  });
+}
+// переключение при смене языка
+let sublang = document.querySelector('.sub-lang');
+let subItem = sublang.querySelectorAll('.sub-lang__item');
+
+for (let i = 0; i < subItem.length; i++) {
+  let subActive = subItem[i].querySelector('.sub-lang__link');
+  subItem[i].addEventListener('click', function () {
+    subActive.classList.toggle('active');
+  });
 }

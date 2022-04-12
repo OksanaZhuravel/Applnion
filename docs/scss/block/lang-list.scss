@@ -46,11 +46,6 @@
     }
   }
 }
-.arrow {
-  width: 18px;
-  height: 18px;
-  background-image: url('../img/arrow-bot.svg');
-}
 .sub-lang {
   display: none;
   flex-flow: column wrap;
@@ -59,10 +54,12 @@
   min-width: 100px;
   position: absolute;
   left: 0;
-  top: -85px;
-  padding: 10px 0 0 0;
+  top: -65px;
+  padding: 0 0 10px 0;
+
   @media (min-width: 1068px) {
     top: 21px;
+    padding: 10px 0 0 0;
   }
   &__item {
     width: 100px;
@@ -73,6 +70,9 @@
   }
   &__link {
     color: #9ba0b9;
+    &.active {
+      color: #4e7fce;
+    }
   }
   &__text {
     font-size: 12px;

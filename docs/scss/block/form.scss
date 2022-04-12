@@ -1,0 +1,43 @@
+.form {
+  display: grid;
+  gap: 15px;
+  &__button {
+  }
+  &__style {
+    padding: 15px 0 15px 20px;
+    // color: #9ba0b9;
+    font-size: 14px;
+    line-height: 26px;
+    background: #ffffff;
+    border: 1px solid #9ba0b9;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    &:focus {
+      border: 1px solid #9ba0b9;
+    }
+    &.disabled {
+      background: #f7faff;
+      border: 1px solid #f0f2f5;
+      box-sizing: border-box;
+      border-radius: 5px;
+    }
+    &:hover::placeholder {
+      font-size: 14px;
+      line-height: 26px;
+      color: #282828;
+      &.disabled {
+        font-size: 14px;
+        line-height: 26px;
+        color: #9ba0b9;
+      }
+    }
+  }
+  &__label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #999999;
+    order: 3;
+  }
+}

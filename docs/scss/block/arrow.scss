@@ -1,0 +1,21 @@
+.arrow {
+  width: 18px;
+  height: 18px;
+  background-image: url('../img/arrow-bot.svg');
+  &--popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11.6px;
+    height: 11.6px;
+
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    &::after {
+      content: url('../img/arrow-open.svg');
+      display: block;
+      width: 7px;
+      height: 7px;
+    }
+  }
+}

@@ -14,6 +14,10 @@
   &__link {
     text-decoration: none;
     color: #ffffff;
+    &:hover,
+    &.active {
+      color: #fe950d;
+    }
     @media (min-width: 1068px) {
       color: #282828;
     }
