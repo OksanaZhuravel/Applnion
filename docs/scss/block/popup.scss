@@ -6,6 +6,12 @@
   letter-spacing: 0.05em;
   box-sizing: border-box;
   color: #282828;
+  @media (min-width: 768px) {
+    padding: 19px 0 19px 19px;
+
+    font-size: 9px;
+    line-height: 14px;
+  }
   &__arrow {
     position: absolute;
     top: -1px;
@@ -22,8 +28,14 @@
       width: 2.33px;
       height: 2.33px;
       background: #f44336;
-      box-shadow: 0px 0px 0px 2.3px rgba(244, 67, 54, 0.15);
+      box-shadow: 0 0 0 2.3px rgba(244, 67, 54, 0.15);
       border-radius: 50%;
+      @media (min-width: 768px) {
+        width: 3.82px;
+        height: 3.82px;
+        top: 5px;
+        box-shadow: 0 0 0 3.8165px rgba(244, 67, 54, 0.15);
+      }
     }
   }
   &__list {
@@ -37,6 +49,10 @@
   &__text {
     font-weight: 400;
     font-size: 4.6px;
+    @media (min-width: 768px) {
+      font-size: 7.67px;
+      line-height: 14px;
+    }
   }
   &__title {
     margin: 0;
@@ -57,4 +73,10 @@
   background-color: #ffffff;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
   border-radius: 2px;
+  @media (min-width: 768px) {
+    width: 215px;
+    padding: 0 0 0 19px;
+    left: -19px;
+    top: 19px;
+  }
 }
