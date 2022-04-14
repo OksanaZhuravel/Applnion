@@ -5,9 +5,12 @@
   justify-content: center;
   @media (min-width: 768px) {
     display: flex;
-    margin: 0;
+    margin: 10px 0;
     align-items: center;
     // background-color: #4d7ecd;
+  }
+  @media (min-width: 1068px) {
+    margin: 0;
   }
   &__item {
     display: flex;

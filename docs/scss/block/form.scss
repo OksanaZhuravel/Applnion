@@ -3,7 +3,9 @@
   gap: 15px;
   box-sizing: border-box;
   @media (min-width: 768px) {
-    width: 570px;
+    width: 100%;
+    // width: 570px;
+
     display: flex;
     flex-flow: row wrap;
     align-items: center;

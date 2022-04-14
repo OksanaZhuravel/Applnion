@@ -1,7 +1,13 @@
 .header {
   width: 100%;
   background-color: #ffffff;
-
+  box-sizing: border-box;
+  @media (min-width: 768px) {
+    padding: 0 35px;
+  }
+  @media (min-width: 1068px) {
+    padding: 0 135px;
+  }
   &::after {
     content: '';
     display: block;

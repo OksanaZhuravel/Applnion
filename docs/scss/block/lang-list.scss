@@ -2,6 +2,9 @@
   margin: 85px 0 0 15px;
   display: flex;
   align-items: center;
+  @media (min-width: 768px) {
+    margin: 0 0 10px 0;
+  }
   @media (min-width: 1068px) {
     margin: 0 0 0 40px;
     // background-color: #4d7ecd;
@@ -57,7 +60,7 @@
   top: -65px;
   padding: 0 0 10px 0;
 
-  @media (min-width: 1068px) {
+  @media (min-width: 768px) {
     top: 21px;
     padding: 10px 0 0 0;
   }
