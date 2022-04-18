@@ -1,0 +1,29 @@
+.sale {
+  gap: 60px;
+  margin: 0 0 44px 0;
+  @media (min-width: 1068px) {
+    padding: 0 164px 0 135px;
+    margin: 0 0 72px 0;
+    grid-template-columns: repeat(2, 540px);
+  }
+  &__button {
+    margin: 20px 0 0 0;
+    @media (min-width: 1068px) {
+      margin: 30px 0 0 0;
+    }
+  }
+  &__foto {
+    width: 305px;
+    min-height: 271px;
+    background-color: #fcfcfc;
+    background-image: url('../img/sale.png ');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: drop-shadow(0 0 34px rgba(0, 0, 0, 0.06));
+    @media (min-width: 1068px) {
+      width: 540px;
+      min-height: 480px;
+    }
+  }
+}

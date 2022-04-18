@@ -1,6 +1,14 @@
 import * as flsFunction from './modules/testweb.js';
 
 flsFunction.isWeb();
+// import Swiper, { Scrollbar } from 'swiper';
+
+// new Swiper('.swiper', {
+//   scrollbar: {
+//     el: '.swiper-scrollbar',
+//     hide: true,
+//   },
+// });
 
 // Открытие, закрытие мобильного меню
 let navMain = document.querySelector('.nav'),

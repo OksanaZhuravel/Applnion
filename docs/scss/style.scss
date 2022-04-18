@@ -2,6 +2,7 @@
 
 .body {
   width: 100%;
+
   // width: 320px;
   min-width: 320px;
   max-width: 1440px;
@@ -97,3 +98,7 @@ main {
 @import './block/promo';
 @import './block/client';
 @import './block/help';
+@import './block/instal';
+@import './block/mobile';
+@import './block/installation';
+@import './block/sale';

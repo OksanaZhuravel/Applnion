@@ -1,0 +1,29 @@
+.installation {
+  @media (min-width: 1068px) {
+    grid-template-columns: 440px 570px;
+  }
+  &__foto {
+    width: 290px;
+    min-height: 174px;
+    background-color: #fcfcfc;
+    background-image: url('../img/installation.png ');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    box-shadow: 0 0 30.5px rgba(0, 0, 0, 0.06);
+    border-radius: 1px;
+    @media (min-width: 768px) {
+      order: 2;
+    }
+    @media (min-width: 1068px) {
+      width: 570px;
+      min-height: 342px;
+    }
+  }
+  &__wrap {
+    @media (min-width: 768px) {
+      order: 1;
+    }
+  }
+}
