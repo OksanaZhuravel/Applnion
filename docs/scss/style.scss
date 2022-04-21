@@ -1,5 +1,7 @@
 @import 'fonts';
 
+@import 'node_modules/swiper/swiper-bundle';
+
 .body {
   width: 100%;
 
@@ -85,6 +87,7 @@ main {
   width: 100%;
   box-sizing: border-box;
 }
+
 @import './block/header';
 @import './block/logo';
 @import './block/menu';
@@ -102,3 +105,6 @@ main {
 @import './block/mobile';
 @import './block/installation';
 @import './block/sale';
+@import './block/case';
+
+// @import './block/swiper';
