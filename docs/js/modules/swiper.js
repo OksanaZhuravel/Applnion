@@ -2,11 +2,6 @@ import Swiper from 'swiper/bundle';
 
 export function isSwaper() {
   new Swiper('.help__foto', {
-    // loop: true,
-    // simulateTouch: true,
-    // pagination: {
-    //   el: '.swiper-pagination',
-    // },
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
@@ -14,6 +9,18 @@ export function isSwaper() {
     scrollbar: {
       el: '.swiper-scrollbar',
     },
+    keyboard: {
+      enabled: true,
+      onlyInViewport: true,
+      pageUpDown: true,
+    },
+  });
+  new Swiper('.case__wrap', {
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
     keyboard: {
       enabled: true,
       onlyInViewport: true,
