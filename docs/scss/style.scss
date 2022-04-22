@@ -84,6 +84,8 @@ input[type='radio'].visually-hidden {
   margin: -1px;
 }
 main {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   box-sizing: border-box;
 }
@@ -107,3 +109,5 @@ main {
 @import './block/sale';
 @import './block/case';
 @import './block/video';
+@import './block/step';
+@import './block/price';

@@ -10,8 +10,11 @@
     padding: 0 35px;
   }
   @media (min-width: 1068px) {
-    padding: 0 205px;
+    padding: 0 135px;
     margin: 0 0 120px 0;
+  }
+  @media (min-width: 1240px) {
+    padding: 0 205px;
   }
   &__desc {
     margin: 0;
@@ -101,15 +104,17 @@
     background-color: #4e7fce;
     border-radius: 5px;
     @media (min-width: 768px) {
+      position: absolute;
+      top: 48px;
+      right: -32px;
       padding: 32px 0 28px 0;
       width: 120px;
       height: 240px;
-      margin: 65px 0 0 -120px;
       z-index: -1;
       border-radius: 0 5px 5px 0;
     }
     @media (min-width: 1068px) {
-      margin: 65px 0 0 -250px;
+      right: 0;
     }
   }
   &__text {
@@ -144,7 +149,7 @@
     justify-items: center;
     gap: 30px;
     @media (min-width: 768px) {
-      grid-template-columns: 1fr 120px;
+      position: relative;
       gap: 0;
       margin: 0 0 40px 0;
       justify-self: start;

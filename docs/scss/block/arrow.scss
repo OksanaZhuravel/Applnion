@@ -2,6 +2,9 @@
   width: 18px;
   height: 18px;
   background-image: url('../img/arrow-bot.svg');
+  @media (min-width: 1650px) {
+    background-image: url('../img/arrow-bot_dark.svg');
+  }
   &--popup {
     display: flex;
     justify-content: center;

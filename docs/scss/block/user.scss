@@ -23,7 +23,6 @@
     border-radius: 5px;
     @media (min-width: 768px) {
       width: 100px;
-
       height: 24px;
     }
     @media (min-width: 1068px) {
@@ -56,6 +55,9 @@
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
+    }
+    @media (min-width: 1900px) {
+      color: #282828;
     }
   }
   .nav__text {

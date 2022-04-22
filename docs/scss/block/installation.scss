@@ -1,6 +1,9 @@
 .installation {
   @media (min-width: 1068px) {
-    grid-template-columns: 440px 570px;
+    padding: 0 164px 0 135px;
+  }
+  @media (min-width: 1240px) {
+    grid-template-columns: 440px 1fr;
   }
   &__foto {
     width: 290px;
@@ -10,7 +13,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
     box-shadow: 0 0 30.5px rgba(0, 0, 0, 0.06);
     border-radius: 1px;
     @media (min-width: 768px) {

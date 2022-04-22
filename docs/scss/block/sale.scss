@@ -3,6 +3,8 @@
   margin: 0 0 44px 0;
   @media (min-width: 1068px) {
     padding: 0 164px 0 135px;
+  }
+  @media (min-width: 1240px) {
     margin: 0 0 72px 0;
     grid-template-columns: repeat(2, 540px);
   }

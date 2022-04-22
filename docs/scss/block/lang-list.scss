@@ -31,6 +31,9 @@
       width: 24px;
       height: 24px;
       background-image: url('../img/lang.svg');
+      @media (min-width: 1440px) {
+        background-image: url('../img/lang_dark.svg');
+      }
     }
   }
   &__arrow {
@@ -46,6 +49,9 @@
       font-size: 12px;
       line-height: 18px;
       color: #ffffff;
+    }
+    @media (min-width: 1440px) {
+      color: #282828;
     }
   }
 }

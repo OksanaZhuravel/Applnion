@@ -36,17 +36,13 @@
       line-height: 18px;
     }
   }
-  &--form,
-  &--instal {
+  &--instal,
+  &--big {
     color: #ffffff;
     @media (min-width: 768px) {
       width: 270px;
       height: 56px;
-    }
-  }
-  &--instal {
-    @media (min-width: 768px) {
-      .button__text {
+      & .button__text {
         font-size: 14px;
         line-height: 26px;
       }
