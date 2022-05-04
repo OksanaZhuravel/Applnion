@@ -48,4 +48,12 @@
       }
     }
   }
+  &--card {
+    width: 230px;
+    height: 56px;
+    color: #ffffff;
+    @media (min-width: 1200px) {
+      width: 310px;
+    }
+  }
 }

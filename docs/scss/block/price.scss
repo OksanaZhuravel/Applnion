@@ -1,0 +1,39 @@
+.price {
+  width: 100%;
+  text-align: center;
+  @media (min-width: 1068px) {
+    padding: 0 135px;
+    box-sizing: border-box;
+  }
+  &__title {
+    margin: 0 0 40px 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    @media (min-width: 768px) {
+      margin: 0 0 60px 0;
+      font-size: 30px;
+      line-height: 48px;
+    }
+  }
+  &__wrap {
+    display: grid;
+    gap: 78px;
+    justify-items: center;
+    justify-content: center;
+    padding: 48px 0 0 0;
+    @media (min-width: 768px) {
+      grid-template-columns: 1fr 1fr;
+      & .card--business {
+        grid-column: 1/ 3;
+      }
+    }
+    @media (min-width: 1068px) {
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 30px;
+      & .card--business {
+        grid-column: auto;
+      }
+    }
+  }
+}
