@@ -305,7 +305,6 @@
               </ul>
               <button class="card__button button button--card"><span class="button__text">Подключить
                   тариф</span></button>
-
             </div>
           </article>
           <article class="card card--medium">
@@ -350,10 +349,39 @@
               </ul>
               <button class="card__button button button--card"><span class="button__text">Подключить
                   тариф</span></button>
-
             </div>
           </article>
         </div>
+      </section>
+      <section class="connection">
+        <h2 class="connection__title">Связаться с нами</h2>
+        <p class="connection__text">Поможем с установкой, если у вас возникнут проблемы!</p>
+        <form class="contact">
+          <fieldset class="contact__fieldset">
+            <legend class="contact__legend">Ваше имя* </legend>
+            <input class="contact__input disabled" type="text" name="name" placeholder="Алексей" id="name">
+          </fieldset>
+          <fieldset class="contact__fieldset">
+            <legend class="contact__legend">Электронный адрес* </legend>
+            <input class="contact__input disabled" type="email" name="email" placeholder="mail@gmail.com"
+              id="emailcontact">
+          </fieldset>
+          <label class="contact__address">
+            <input class="contact__input contact__input--address" type="url" name="address"
+              placeholder="Адрес вашего сайта*" id="address">
+          </label>
+          <textarea class="contact__textarea" name="comment" id="comment" cols="30" rows="10"
+            placeholder="Комментарий"></textarea>
+          <button class="button button--contact disabled" type="submit" value="Отправить">
+            <span class="button__text">Отправить</span></button>
+          <label class="contact__radio">
+            <input type="radio" name="radio">
+            <span class="contact__text">Нажимая на кнопку
+              «отправить», я даю
+              согласие <a href="#" class="contact__link"> на обработку персональных данных.</a></span>
+
+          </label>
+        </form>
       </section>
     </main>
     <script src="js/app.min.js"></script>

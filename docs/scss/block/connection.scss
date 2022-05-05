@@ -1,0 +1,53 @@
+.connection {
+  width: 100%;
+  margin: 14px 0 0 0;
+  padding: 0 15px;
+  box-sizing: border-box;
+  display: grid;
+  background-color: #f7faff;
+  position: relative;
+  &::before {
+    content: '';
+    display: block;
+    width: 120px;
+    height: 69px;
+    position: absolute;
+    top: -14px;
+    right: 15px;
+    background-image: url('../img/airplane.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    @media (min-width: 1068px) {
+      top: -35px;
+      right: 235px;
+      width: 270px;
+      height: 155px;
+    }
+  }
+  @media (min-width: 1068px) {
+    padding: 0;
+    margin: 35px 0 0 0;
+  }
+
+  &__text {
+    margin: 0 0 32px 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    @media (min-width: 768px) {
+      margin: 0 0 32px 135px;
+    }
+  }
+  &__title {
+    margin: 40px 0 10px 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    @media (min-width: 768px) {
+      margin: 60px 0 10px 135px;
+      font-size: 30px;
+      line-height: 48px;
+    }
+  }
+}

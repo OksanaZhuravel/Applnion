@@ -56,4 +56,15 @@
       width: 310px;
     }
   }
+  &--contact {
+    margin: 30px 0 15px 0;
+    width: 290px;
+    height: 56px;
+    color: #ffffff;
+    @media (min-width: 1200px) {
+      width: 270px;
+      grid-column: 1 / 2;
+      margin: 0;
+    }
+  }
 }

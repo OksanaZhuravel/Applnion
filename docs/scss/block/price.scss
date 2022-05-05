@@ -1,9 +1,11 @@
 .price {
   width: 100%;
   text-align: center;
+  margin: 0 0 66px 0;
   @media (min-width: 1068px) {
     padding: 0 135px;
     box-sizing: border-box;
+    margin: 0 0 85px 0;
   }
   &__title {
     margin: 0 0 40px 0;
