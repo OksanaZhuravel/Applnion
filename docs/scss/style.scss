@@ -4,7 +4,6 @@
 
 .body {
   width: 100%;
-
   // width: 320px;
   min-width: 320px;
   max-width: 1440px;
@@ -114,3 +113,8 @@ main {
 @import './block/card';
 @import './block/connection';
 @import './block/contact';
+@import './block/footer';
+@import './block/info';
+@import './block/social';
+@import './block/navigation';
+@import './block/deal';

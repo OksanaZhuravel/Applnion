@@ -1,0 +1,52 @@
+.social {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  @media (min-width: 1068px) {
+    gap: 30px;
+    width: 204px;
+  }
+  &__item {
+    list-style: none;
+    margin: 0;
+  }
+  &__link {
+    display: block;
+    width: 36px;
+    height: 36px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    @media (min-width: 1068px) {
+      width: 48px;
+      height: 48px;
+    }
+    &:hover {
+      transform: scale(1.2);
+      transition: transform 1.5s ease-in;
+    }
+    &:active {
+      transform: scale(0.8);
+      transition: transform 1.5s ease-in;
+    }
+    &--facebook {
+      background-image: url('../img/facebook.svg');
+      &:hover {
+        background-image: url('../img/facebook-hover.svg');
+      }
+    }
+    &--instagram {
+      background-image: url('../img/instagram.svg');
+      &:hover {
+        background-image: url('../img/instagram-hover.svg');
+      }
+    }
+    &--vk {
+      background-image: url('../img/vk.svg');
+      &:hover {
+        background-image: url('../img/vk-hover.svg');
+      }
+    }
+  }
+}

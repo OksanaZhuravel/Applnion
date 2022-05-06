@@ -149,13 +149,14 @@
       background-size: contain;
       background-repeat: no-repeat;
       background-position: 0 0;
-      @media (min-width: 1068px) {
-        top: 315px;
-        left: 370px;
-      }
+
       @media (min-width: 1200px) {
+        top: 315px;
         width: 124px;
         height: 138px;
+      }
+      @media (min-width: 1440px) {
+        left: 370px;
       }
     }
   }
