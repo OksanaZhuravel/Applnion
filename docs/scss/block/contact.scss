@@ -134,6 +134,7 @@
   &__fieldset {
     border: 1px solid #f0f2f5;
     outline: none;
+    background-color: transparent;
     &:focus,
     &:hover,
     &:active {
@@ -149,6 +150,7 @@
       font-size: 14px;
       line-height: 26px;
       color: #9ba0b9;
+      background-color: transparent;
     }
     &:focus,
     &:hover,

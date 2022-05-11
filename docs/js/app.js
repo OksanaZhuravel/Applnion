@@ -7,8 +7,12 @@ import { isMobile } from './modules/mobile.js';
 import { isLanguage } from './modules/language.js';
 
 import { isSwaper } from './modules/swiper.js';
+
+import { isEmail } from './modules/email.js';
+
 flsFunction.isWeb();
 isMenu();
 isMobile();
 isLanguage();
 isSwaper();
+isEmail();
