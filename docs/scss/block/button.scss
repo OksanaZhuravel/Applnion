@@ -52,8 +52,15 @@
     width: 230px;
     height: 56px;
     color: #ffffff;
+    @media (min-width: 768px) {
+      & .button__text {
+        font-size: 14px;
+        line-height: 26px;
+      }
+    }
     @media (min-width: 1200px) {
       width: 310px;
+      height: 56px;
     }
   }
   &--contact {
