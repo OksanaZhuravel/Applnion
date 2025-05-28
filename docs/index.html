@@ -1,591 +1,603 @@
 <!DOCTYPE html>
 <html lang="ru">
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link
-      href="https://fonts.googleapis.com/css2?family=Hubballi&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,400&family=Roboto:wght@400;500&display=swap"
-      rel="stylesheet"> -->
-    <link rel="stylesheet" href="css/style.min.css" />
-    <title>«AppInion»</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <link
+    href="https://fonts.googleapis.com/css2?family=Hubballi&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,400&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet"> -->
+  <link rel="stylesheet" href="css/style.min.css" />
+  <link rel="icon" href="img/logo.svg" type="image/svg" />
+  <title>«AppInion»</title>
+</head>
 
-  <body class="body">
-    <div class="body__fon"></div>
-    <header class="header">
-      <nav class="nav nav--closed nav--nojs">
-        <button class="nav__toggle" type="button">
-          <span class="visually-hidden">Открыть меню</span>
-        </button>
-        <a href="#" class="logo">
-          <img src="img/logo.svg" alt="«AppInion»" width="81" height="38" />
-        </a>
-        <div class="nav__wrap">
-          <ul class="nav__list menu">
-            <li class="nav__item">
-              <a href="#" class="menu__link"><span class="menu__text">Главная</span></a>
-            </li>
-            <li class="nav__item">
-              <a href="#" class="menu__link"><span class="menu__text">FAQ</span></a>
-            </li>
-            <li class="nav__item">
-              <a href="#" class="menu__link"><span class="menu__text">Тарифы</span></a>
-            </li>
-            <li class="nav__item">
-              <a href="#" class="menu__link"><span class="menu__text">Как установить?</span></a>
-            </li>
-            <li class="nav__item">
-              <a href="#" class="menu__link"><span class="menu__text">Контакты</span></a>
-            </li>
-          </ul>
-          <ul class="nav__list lang-list">
-            <li class="lang-list__item">
-              <a href="#ru" class="nav__link lang-list__link" data-lang="ru">
-                <span class="lang-list__text">Русский</span></a>
-              <span class="lang-list__arrow arrow"></span>
-              <ul class="nav__list sub-lang">
-                <li class="sub-lang__item">
-                  <a href="#ru" class="sub-lang__link active nav__link" data-lang="ru">
-                    <span class="sub-lang__text">Русский</span></a>
-                </li>
-                <li class="sub-lang__item">
-                  <a href="#en" class="sub-lang__link nav__link" data-lang="en">
-                    <span class="sub-lang__text">Английский</span></a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-          <ul class="nav__list user">
-            <li class="user__item">
-              <a href="#" class="nav__link user__link">
-                <span class="nav__text">Вход</span>
-              </a>
-            </li>
-            <li class="button">
-              <a href="#" class="button__link">
-                <span class="button__text">Подключить бесплатно</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <section class="promo">
-        <h1 class="visually-hidden">Видео-виджеты!</h1>
-        <div class="promo__wrap">
-          <p class="promo__title">Продавай с помощью</p>
-          <p class="promo__subtitle">видео-трансляций!</p>
-          <p class="promo__text">
-            Продавайте ваши товары вживую клиентам вашего сайта.
-          </p>
-          <p class="promo__text">
-            На замену email-формам и чатам с роботами - живые продажи online
-          </p>
-          <form class="promo__form form">
-            <input class="form__style disabled" type="email" name="email" placeholder="Электронный адрес" id="email" />
-            <label for="email" class="form__label">*30 дней бесплатно в максимально тарифе!</label>
-            <button class="button form__button button--big disabled" type="submit" value="Отправить">
-              <span class="button__text">Подключить бесплатно</span>
-            </button>
-          </form>
-        </div>
-        <div class="promo__foto">
-          <div class="promo__popup popup">
-            <ul class="popup__list">
-              <li class="popup__item">
-                <p class="popup__title">Live</p>
-                <span class="popup__arrow arrow arrow--popup"></span>
-                <ul class="sub-popup">
-                  <li class="sub-popup__item">
-                    <p class="popup__subtitle">Онлайн-консультация</p>
-                    <p class="popup__text">Доступно с 10:00 до 22:00 по МСК</p>
-                  </li>
-                </ul>
+<body class="body">
+  <div class="body__fon"></div>
+  <header class="header">
+    <nav class="nav nav--closed nav--nojs">
+      <button class="nav__toggle" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+      <a href="#" class="logo">
+        <img src="img/logo.svg" alt="«AppInion»" width="81" height="38" />
+      </a>
+      <div class="nav__wrap">
+        <ul class="nav__list menu">
+          <li class="nav__item">
+            <a href="#" class="menu__link"><span class="menu__text">Главная</span></a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="menu__link"><span class="menu__text">FAQ</span></a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="menu__link"><span class="menu__text">Тарифы</span></a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="menu__link"><span class="menu__text">Как установить?</span></a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="menu__link"><span class="menu__text">Контакты</span></a>
+          </li>
+        </ul>
+        <ul class="nav__list lang-list">
+          <li class="lang-list__item">
+            <a href="#ru" class="nav__link lang-list__link" data-lang="ru">
+              <span class="lang-list__text">Русский</span></a>
+            <span class="lang-list__arrow arrow"></span>
+            <ul class="nav__list sub-lang">
+              <li class="sub-lang__item">
+                <a href="#ru" class="sub-lang__link active nav__link" data-lang="ru">
+                  <span class="sub-lang__text">Русский</span></a>
+              </li>
+              <li class="sub-lang__item">
+                <a href="#en" class="sub-lang__link nav__link" data-lang="en">
+                  <span class="sub-lang__text">Английский</span></a>
               </li>
             </ul>
-          </div>
-        </div>
-      </section>
-      <section class="client">
-        <h2 class="client__title">Клиенты, которые уже доверяют нам:</h2>
-        <ul class="client__list">
-          <li class="client__item">
-            <a href="#" class="client__link client__link--fermer"></a>
-          </li>
-          <li class="client__item">
-            <a href="#" class="client__link client__link--vera"></a>
-          </li>
-          <li class="client__item">
-            <a href="#" class="client__link client__link--fermer"></a>
-          </li>
-          <li class="client__item">
-            <a href="#" class="client__link client__link--vera"></a>
-          </li>
-          <li class="client__item">
-            <a href="#" class="client__link client__link--fermer"></a>
-          </li>
-          <li class="client__item">
-            <a href="#" class="client__link client__link--vera"></a>
-          </li>
-          <li class="client__item">
-            <a href="#" class="client__link client__link--fermer"></a>
-          </li>
-          <li class="client__item">
-            <a href="#" class="client__link client__link--vera"></a>
           </li>
         </ul>
-      </section>
-      <section class="help">
-        <div class="help__foto swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <picture>
-                <source srcset="img/help_img.webp " type=" image/webp ">
-                <img src="img/help_img.png" alt="Foto" width="290" height="174" />
-              </picture>
-            </div>
-            <div class="swiper-slide">
-              <picture>
-                <source srcset="img/help_i.webp " type=" image/webp ">
-                <img src="img/help_i.png" alt="Foto" width="290" height="174" />
-              </picture>
-            </div>
-          </div>
-          <div class="swiper-scrollbar"></div>
-          <div class="help__inner">
-            <p class="help__life">Live</p>
-          </div>
-        </div>
-        <div class="help__wrap">
-          <h2 class="help__title">Поможем решить ваши проблемы в digital</h2>
-          <p class="help__text">
-            Интегрируйте видео-виджет, который позволит вам делать живые продажи
-            на сайте, ваши сотрудники в режиме реального времени могут
-            проконсультировать клиента и оформить живую продажу
-          </p>
-        </div>
-        <div class="help__box">
-          <h2 class="help__title help__title--subtitle">
-            Поможем решить ваши проблемы в digital
-          </h2>
-          <ul class="help__list">
-            <li class="help__item help__item--sale">
-              <p class="help__subtitle">Низкой конверсии в продажу</p>
-              <p class="help__text help__text--line-height">
-                За счет полного ведения и консультации клиента в режиме
-                реального времени
-              </p>
-            </li>
-            <li class="help__item help__item--mistrust">
-              <p class="help__subtitle">Недоверия клиентов</p>
-              <p class="help__text help__text--line-height">
-                Клиенты зачастую недоверяют digital-ресурсам из-за обмана,
-                покажите реального консультанта и живой товар и закройте сделку
-              </p>
-            </li>
-            <li class="help__item help__item--competitor">
-              <p class="help__subtitle">Выделиться на фоне конкурентов</p>
-              <p class="help__text help__text--line-height">
-                Клиенты зачастую недоверяют digital-ресурсам из-за обмана,
-                покажите реального консультанта и живой товар и закройте сделку
-              </p>
+        <ul class="nav__list user">
+          <li class="user__item">
+            <a href="#" class="nav__link user__link">
+              <span class="nav__text">Вход</span>
+            </a>
+          </li>
+          <li class="button">
+            <a href="#" class="button__link">
+              <span class="button__text">Подключить бесплатно</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="promo">
+      <h1 class="visually-hidden">Видео-виджеты!</h1>
+      <div class="promo__wrap">
+        <p class="promo__title">Продавай с помощью</p>
+        <p class="promo__subtitle">видео-трансляций!</p>
+        <p class="promo__text">
+          Продавайте ваши товары вживую клиентам вашего сайта.
+        </p>
+        <p class="promo__text">
+          На замену email-формам и чатам с роботами - живые продажи online
+        </p>
+        <form class="promo__form form">
+          <input class="form__style disabled" type="email" name="email" placeholder="Электронный адрес" id="email" />
+          <label for="email" class="form__label">*30 дней бесплатно в максимально тарифе!</label>
+          <button class="button form__button button--big disabled" type="submit" value="Отправить">
+            <span class="button__text">Подключить бесплатно</span>
+          </button>
+        </form>
+      </div>
+      <div class="promo__foto">
+        <div class="promo__popup popup">
+          <ul class="popup__list">
+            <li class="popup__item">
+              <p class="popup__title">Live</p>
+              <span class="popup__arrow arrow arrow--popup"></span>
+              <ul class="sub-popup">
+                <li class="sub-popup__item">
+                  <p class="popup__subtitle">Онлайн-консультация</p>
+                  <p class="popup__text">Доступно с 10:00 до 22:00 по МСК</p>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
-      </section>
-      <section class="instal">
-        <h2 class="instal__title">
-          Установите
-          <span class="instal__title instal__title--color">прямой эфир</span>
-          для вашего сайта
-        </h2>
-        <p class="instal__text">
-          Интегрируйте видео-виджет, который позволит вам делать живые продажи в
-          digital, ваши сотрудники в режиме реального времени могут
+      </div>
+    </section>
+    <section class="client">
+      <h2 class="client__title">Клиенты, которые уже доверяют нам:</h2>
+      <ul class="client__list">
+        <li class="client__item">
+          <a href="#" class="client__link client__link--fermer"></a>
+        </li>
+        <li class="client__item">
+          <a href="#" class="client__link client__link--vera"></a>
+        </li>
+        <li class="client__item">
+          <a href="#" class="client__link client__link--fermer"></a>
+        </li>
+        <li class="client__item">
+          <a href="#" class="client__link client__link--vera"></a>
+        </li>
+        <li class="client__item">
+          <a href="#" class="client__link client__link--fermer"></a>
+        </li>
+        <li class="client__item">
+          <a href="#" class="client__link client__link--vera"></a>
+        </li>
+        <li class="client__item">
+          <a href="#" class="client__link client__link--fermer"></a>
+        </li>
+        <li class="client__item">
+          <a href="#" class="client__link client__link--vera"></a>
+        </li>
+      </ul>
+    </section>
+    <section class="help">
+      <div class="help__foto swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <picture>
+              <source srcset="img/help_img.webp " type="image/webp ">
+              <img src="img/help_img.png" alt="Foto" width="290" height="174" />
+            </picture>
+          </div>
+          <div class="swiper-slide">
+            <picture>
+              <source srcset="img/help_i.webp " type="image/webp ">
+              <img src="img/help_i.png" alt="Foto" width="290" height="174" />
+            </picture>
+          </div>
+        </div>
+        <div class="swiper-scrollbar"></div>
+        <div class="help__inner">
+          <p class="help__life">Live</p>
+        </div>
+      </div>
+      <div class="help__wrap">
+        <h2 class="help__title">Поможем решить ваши проблемы в digital</h2>
+        <p class="help__text">
+          Интегрируйте видео-виджет, который позволит вам делать живые продажи
+          на сайте, ваши сотрудники в режиме реального времени могут
           проконсультировать клиента и оформить живую продажу
         </p>
-        <div class="instal__wrap">
-          <div class="instal__foto">
-            <picture>
-              <source srcset="img/instal-img.webp " type=" image/webp ">
-              <img class="instal__img" src="img/instal-img.png" alt="Прямой эфир" width="970" height="529" />
-            </picture>
+      </div>
+      <div class="help__box">
+        <h2 class="help__title help__title--subtitle">
+          Поможем решить ваши проблемы в digital
+        </h2>
+        <ul class="help__list">
+          <li class="help__item help__item--sale">
+            <p class="help__subtitle">Низкой конверсии в продажу</p>
+            <p class="help__text help__text--line-height">
+              За счет полного ведения и консультации клиента в режиме
+              реального времени
+            </p>
+          </li>
+          <li class="help__item help__item--mistrust">
+            <p class="help__subtitle">Недоверия клиентов</p>
+            <p class="help__text help__text--line-height">
+              Клиенты зачастую недоверяют digital-ресурсам из-за обмана,
+              покажите реального консультанта и живой товар и закройте сделку
+            </p>
+          </li>
+          <li class="help__item help__item--competitor">
+            <p class="help__subtitle">Выделиться на фоне конкурентов</p>
+            <p class="help__text help__text--line-height">
+              Клиенты зачастую недоверяют digital-ресурсам из-за обмана,
+              покажите реального консультанта и живой товар и закройте сделку
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="instal">
+      <h2 class="instal__title">
+        Установите
+        <span class="instal__title instal__title--color">прямой эфир</span>
+        для вашего сайта
+      </h2>
+      <p class="instal__text">
+        Интегрируйте видео-виджет, который позволит вам делать живые продажи в
+        digital, ваши сотрудники в режиме реального времени могут
+        проконсультировать клиента и оформить живую продажу
+      </p>
+      <div class="instal__wrap">
+        <div class="instal__foto">
+          <picture>
+            <source srcset="img/instal-img.webp " type=" image/webp ">
+            <img class="instal__img" src="img/instal-img.png" alt="Прямой эфир" width="970" height="529" />
+          </picture>
 
-          </div>
-          <div class="instal__inner">
-            <p class="instal__desc instal__desc--data">30</p>
-            <p class="instal__desc instal__desc--day">дней</p>
-            <p class="instal__desc instal__desc--text">
-              <span class="instal__desc instal__desc--weight">бесплатно</span>
-              в максимальном тарифе!
-            </p>
-          </div>
         </div>
-        <button class="button button--instal">
+        <div class="instal__inner">
+          <p class="instal__desc instal__desc--data">30</p>
+          <p class="instal__desc instal__desc--day">дней</p>
+          <p class="instal__desc instal__desc--text">
+            <span class="instal__desc instal__desc--weight">бесплатно</span>
+            в максимальном тарифе!
+          </p>
+        </div>
+      </div>
+      <button class="button button--instal">
+        <span class="button__text">Подключить бесплатно</span>
+      </button>
+    </section>
+    <section class="mobile">
+      <div class="mobile__foto"></div>
+      <div class="mobile__wrap">
+        <h2 class="mobile__title">Общайтесь с вашим покупателем</h2>
+        <p class="mobile__text">
+          Общайтесь в чате с вашим клиентом и при необходимости
+          продемонстрируйте его живой товар и консультанта.
+        </p>
+        <p class="mobile__text">Все что вам нужно - мобильное приложение</p>
+        <div class="mobile__inner">
+          <a href="#" class="mobile__link mobile__link--app"></a>
+          <a href="#" class="mobile__link mobile__link--google"></a>
+        </div>
+      </div>
+    </section>
+    <section class="mobile installation">
+      <div class="installation__foto"></div>
+      <div class="installation__wrap">
+        <h2 class="mobile__title">Простая интеграция и установка</h2>
+        <p class="mobile__text">
+          Пример публикации - всем известен, все давно знают и пользуются
+          чатами, в углу у клиент
+        </p>
+      </div>
+    </section>
+    <section class="mobile sale">
+      <div class="sale__foto"></div>
+      <div class="sale__wrap">
+        <h2 class="mobile__title">
+          Совершайте <span class="mobile__subtitle">больше продаж</span>
+        </h2>
+        <p class="mobile__text">
+          За счет более лояльных покупателей и нового продукта на рынке. Вы
+          будете выделяться на фоне конкурентов и привлекать больше внимания к
+          своему бренду
+        </p>
+        <button class="button button--instal sale__button">
           <span class="button__text">Подключить бесплатно</span>
         </button>
-      </section>
-      <section class="mobile">
-        <div class="mobile__foto"></div>
-        <div class="mobile__wrap">
-          <h2 class="mobile__title">Общайтесь с вашим покупателем</h2>
-          <p class="mobile__text">
-            Общайтесь в чате с вашим клиентом и при необходимости
-            продемонстрируйте его живой товар и консультанта.
-          </p>
-          <p class="mobile__text">Все что вам нужно - мобильное приложение</p>
-          <div class="mobile__inner">
-            <a href="#" class="mobile__link mobile__link--app"></a>
-            <a href="#" class="mobile__link mobile__link--google"></a>
-          </div>
-        </div>
-      </section>
-      <section class="mobile installation">
-        <div class="installation__foto"></div>
-        <div class="installation__wrap">
-          <h2 class="mobile__title">Простая интеграция и установка</h2>
-          <p class="mobile__text">
-            Пример публикации - всем известен, все давно знают и пользуются
-            чатами, в углу у клиент
-          </p>
-        </div>
-      </section>
-      <section class="mobile sale">
-        <div class="sale__foto"></div>
-        <div class="sale__wrap">
-          <h2 class="mobile__title">
-            Совершайте <span class="mobile__subtitle">больше продаж</span>
-          </h2>
-          <p class="mobile__text">
-            За счет более лояльных покупателей и нового продукта на рынке. Вы
-            будете выделяться на фоне конкурентов и привлекать больше внимания к
-            своему бренду
-          </p>
-          <button class="button button--instal sale__button">
-            <span class="button__text">Подключить бесплатно</span>
-          </button>
-        </div>
-      </section>
-      <section class="case">
-        <h2 class="case__title">Успешные кейсы</h2>
-        <p class="case__text">
-          Интегрируйте видео-виджет, который позволит вам делать живые продажи в
-          digital, ваши сотрудники в режиме реального времени могут
-          проконсультировать клиента и оформить живую продажу.
-        </p>
-        <div class="case__wrap swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide video">
-              <div class="case__inner video__inner">
-                <video width="290" height="162" autoplay loop muted src="#" poster="img/case-video.png"></video>
-                <div class="video__wrap">
-                  <button class="video__btn">
-                    <span class="visually-hidden">включить проигрывание видео</span>
-                  </button>
-                </div>
-              </div>
-              <div class="case__inner">
-                <h3 class="case__subtitle">Чистокот.ру</h3>
-                <ul class="case__list">
-                  <li class="case__item">
-                    Повышение общей конверсии с 3 до 4 процентов
-                  </li>
-                  <li class="case__item">Уменьшение процента отказа с до</li>
-                  <li class="case__item">
-                    Суммарная выручка с интернет-магазина выросла на 25%
-                  </li>
-                </ul>
-                <a class="case__link" href="#">Читать отзыв полностью</a>
+      </div>
+    </section>
+    <section class="case">
+      <h2 class="case__title">Успешные кейсы</h2>
+      <p class="case__text">
+        Интегрируйте видео-виджет, который позволит вам делать живые продажи в
+        digital, ваши сотрудники в режиме реального времени могут
+        проконсультировать клиента и оформить живую продажу.
+      </p>
+      <div class="case__wrap swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide video">
+            <div class="case__inner video__inner">
+              <video width="290" height="162" autoplay loop muted src="#" poster="img/case-video.png"></video>
+              <div class="video__wrap">
+                <button class="video__btn">
+                  <span class="visually-hidden">включить проигрывание видео</span>
+                </button>
               </div>
             </div>
-            <div class="swiper-slide video">
-              <div class="case__inner video__inner">
-                <video width="290" height="162" autoplay loop muted src="#" poster="img/case-video180.png"></video>
-                <div class="video__wrap">
-                  <button class="video__btn">
-                    <span class="visually-hidden">включить проигрывание видео</span>
-                  </button>
-                </div>
-              </div>
-              <div class="case__inner">
-                <h3 class="case__subtitle">Чистокот2.ру</h3>
-                <ul class="case__list">
-                  <li class="case__item">
-                    Повышение общей конверсии с 3 до 4 процентов
-                  </li>
-                  <li class="case__item">Уменьшение процента отказа с до</li>
-                  <li class="case__item">
-                    Суммарная выручка с интернет-магазина выросла на 25%
-                  </li>
-                </ul>
-                <a class="case__link" href="#">Читать отзыв полностью</a>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-button-wrap">
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-          </div>
-        </div>
-      </section>
-      <section class="step">
-        <h2 class="step__title">Как поставить себе?</h2>
-        <span class="step__title step__title--subtitle">
-          Установка за 4 шага</span>
-        <p class="step__text step__text--header">
-          Интегрируйте видео-виджет, который позволит вам делать живые продажи в
-          digital, ваши сотрудники в режиме реального времени могут
-          проконсультировать клиента и оформить живую продажу.
-        </p>
-        <p class="step__text step__text--header">
-          Интегрируйте видео-виджет, который позволит вам делать живые продажи в
-          digital, ваши сотрудники в режиме реального времени могут
-          проконсультировать клиента и оформить живую продажу.
-        </p>
-        <ol class="step__list">
-          <li class="step__item">
-            <p class="step__text step__text--bold">Регистрация</p>
-            <p class="step__text">
-              Вы <a href="#" class="step__link">регистрируетесь</a>, и получите
-              30 дней бесплатного пользования
-            </p>
-          </li>
-          <li class="step__item">
-            <p class="step__text step__text--bold">Установка виджета</p>
-            <p class="step__text">
-              Вставляйте код виджета на ваш сайт в тег footer
-            </p>
-          </li>
-          <li class="step__item">
-            <p class="step__text step__text--bold">Мобильное приложение</p>
-            <p class="step__text">
-              Скачивайте наше мобильное приложение из Play Market
-            </p>
-          </li>
-          <li class="step__item">
-            <p class="step__text step__text--bold">Ведите прямые эфиры</p>
-            <p class="step__text">
-              Ваш менеджер принимает заявки в чате и при необходимости может
-              подключиться к прямому эфиру со своего смартфона
-            </p>
-          </li>
-        </ol>
-        <button class="button button--big step__button">
-          <span class="button__text">Подключить бесплатно</span>
-        </button>
-      </section>
-      <section class="price">
-        <h2 class="price__title">Стоимость тарифов</h2>
-        <div class="price__wrap">
-          <article class="card card--economy">
-            <div class="card__price">
-              <h3 class="card__rate">Тариф «Эконом»</h3>
-              <p class="card__cost card__cost--old"></p>
-              <p class="card__cost card__cost--now">Бесплатно</p>
-              <p class="card__cost card__cost--discount"></p>
-              <ul class="card__list">
-                <li class="card__item">Количество виджетов</li>
-                <li class="card__item card__item--amount">1</li>
-                <li class="card__item">Пространство для видео</li>
-                <li class="card__item card__item--amount">100 мб</li>
-                <li class="card__item">Настройка CTA-кнопки</li>
-                <li class="card__item card__item--minus">
-                  <span class="visually-hidden">-</span>
+            <div class="case__inner">
+              <h3 class="case__subtitle">Чистокот.ру</h3>
+              <ul class="case__list">
+                <li class="case__item">
+                  Повышение общей конверсии с 3 до 4 процентов
                 </li>
-                <li class="card__item">Отсутствие вотермарка</li>
-                <li class="card__item card__item--minus">
-                  <span class="visually-hidden">-</span>
-                </li>
-                <li class="card__item">Настройка внешнего вида</li>
-                <li class="card__item card__item--minus">
-                  <span class="visually-hidden">-</span>
+                <li class="case__item">Уменьшение процента отказа с до</li>
+                <li class="case__item">
+                  Суммарная выручка с интернет-магазина выросла на 25%
                 </li>
               </ul>
-              <button class="card__button button button--card">
-                <span class="button__text">Подключить тариф</span>
-              </button>
+              <a class="case__link" href="#">Читать отзыв полностью</a>
             </div>
-          </article>
-          <article class="card card--medium">
-            <div class="card__price">
-              <h3 class="card__rate">Тариф «Медиум»</h3>
-              <p class="card__cost card__cost--old">1200 ₽</p>
-              <p class="card__cost card__cost--now">690 ₽</p>
-              <p class="card__cost card__cost--discount">
-                7452 ₽ в год (экономия 10%)
-              </p>
-              <ul class="card__list">
-                <li class="card__item">Количество виджетов</li>
-                <li class="card__item card__item--unlim">
-                  <span class="visually-hidden">безлимит</span>
+          </div>
+          <div class="swiper-slide video">
+            <div class="case__inner video__inner">
+              <video width="290" height="162" autoplay loop muted src="#" poster="img/case-video180.png"></video>
+              <div class="video__wrap">
+                <button class="video__btn">
+                  <span class="visually-hidden">включить проигрывание видео</span>
+                </button>
+              </div>
+            </div>
+            <div class="case__inner">
+              <h3 class="case__subtitle">Чистокот2.ру</h3>
+              <ul class="case__list">
+                <li class="case__item">
+                  Повышение общей конверсии с 3 до 4 процентов
                 </li>
-                <li class="card__item">Пространство для видео</li>
-                <li class="card__item card__item--amount">1 гб</li>
-                <li class="card__item">Настройка CTA-кнопки</li>
-                <li class="card__item card__item--plus">
-                  <span class="visually-hidden">+</span>
-                </li>
-                <li class="card__item">Отсутствие вотермарка</li>
-                <li class="card__item card__item--minus">
-                  <span class="visually-hidden">-</span>
-                </li>
-                <li class="card__item">Настройка внешнего вида</li>
-                <li class="card__item card__item--minus">
-                  <span class="visually-hidden">-</span>
+                <li class="case__item">Уменьшение процента отказа с до</li>
+                <li class="case__item">
+                  Суммарная выручка с интернет-магазина выросла на 25%
                 </li>
               </ul>
-              <button class="card__button button button--card">
-                <span class="button__text">Подключить тариф</span>
-              </button>
+              <a class="case__link" href="#">Читать отзыв полностью</a>
             </div>
-          </article>
-          <article class="card card--business">
-            <div class="card__price">
-              <h3 class="card__rate">Тариф «Бизнес»</h3>
-              <p class="card__cost card__cost--old">1490 ₽</p>
-              <p class="card__cost card__cost--now">990 ₽</p>
-              <p class="card__cost card__cost--discount">
-                10890 ₽ в год (экономия 10%)
-              </p>
-              <ul class="card__list">
-                <li class="card__item">Количество виджетов</li>
-                <li class="card__item card__item--unlim">
-                  <span class="visually-hidden">безлимит</span>
-                </li>
-                <li class="card__item">Пространство для видео</li>
-                <li class="card__item card__item--amount">10 гб</li>
-                <li class="card__item">Настройка CTA-кнопки</li>
-                <li class="card__item card__item--plus">
-                  <span class="visually-hidden">+</span>
-                </li>
-                <li class="card__item">Отсутствие вотермарка</li>
-                <li class="card__item card__item--plus">
-                  <span class="visually-hidden">+</span>
-                </li>
-                <li class="card__item">Настройка внешнего вида</li>
-                <li class="card__item card__item--plus">
-                  <span class="visually-hidden">+</span>
-                </li>
-              </ul>
-              <button class="card__button button button--card">
-                <span class="button__text">Подключить тариф</span>
-              </button>
-            </div>
-          </article>
+          </div>
         </div>
-      </section>
-      <section class="connection">
-        <h2 class="connection__title">Связаться с нами</h2>
-        <p class="connection__text">
-          Поможем с установкой, если у вас возникнут проблемы!
-        </p>
-        <form class="contact">
-          <fieldset class="contact__fieldset">
-            <legend class="contact__legend">Ваше имя*</legend>
-            <input class="contact__input disabled" type="text" name="name" placeholder="Алексей" id="name" />
-          </fieldset>
-          <fieldset class="contact__fieldset">
-            <legend class="contact__legend">Электронный адрес*</legend>
-            <input class="contact__input disabled" type="email" name="email" placeholder="mail@gmail.com"
-              id="emailcontact" />
-          </fieldset>
-          <label class="contact__address">
-            <input class="contact__input contact__input--address" type="url" name="address"
-              placeholder="Адрес вашего сайта*" id="address" />
-          </label>
-          <textarea class="contact__textarea" name="comment" id="comment" cols="30" rows="10"
-            placeholder="Комментарий"></textarea>
-          <div class="contact__inner">
-            <button class="button button--contact disabled" type="submit" value="Отправить">
-              <span class="button__text">Отправить</span>
+        <div class="swiper-button-wrap">
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </section>
+    <section class="step">
+      <h2 class="step__title">Как поставить себе?</h2>
+      <span class="step__title step__title--subtitle">
+        Установка за 4 шага</span>
+      <p class="step__text step__text--header">
+        Интегрируйте видео-виджет, который позволит вам делать живые продажи в
+        digital, ваши сотрудники в режиме реального времени могут
+        проконсультировать клиента и оформить живую продажу.
+      </p>
+      <p class="step__text step__text--header">
+        Интегрируйте видео-виджет, который позволит вам делать живые продажи в
+        digital, ваши сотрудники в режиме реального времени могут
+        проконсультировать клиента и оформить живую продажу.
+      </p>
+      <ol class="step__list">
+        <li class="step__item">
+          <p class="step__text step__text--bold">Регистрация</p>
+          <p class="step__text">
+            Вы <a href="#" class="step__link">регистрируетесь</a>, и получите
+            30 дней бесплатного пользования
+          </p>
+        </li>
+        <li class="step__item">
+          <p class="step__text step__text--bold">Установка виджета</p>
+          <p class="step__text">
+            Вставляйте код виджета на ваш сайт в тег footer
+          </p>
+        </li>
+        <li class="step__item">
+          <p class="step__text step__text--bold">Мобильное приложение</p>
+          <p class="step__text">
+            Скачивайте наше мобильное приложение из Play Market
+          </p>
+        </li>
+        <li class="step__item">
+          <p class="step__text step__text--bold">Ведите прямые эфиры</p>
+          <p class="step__text">
+            Ваш менеджер принимает заявки в чате и при необходимости может
+            подключиться к прямому эфиру со своего смартфона
+          </p>
+        </li>
+      </ol>
+      <button class="button button--big step__button">
+        <span class="button__text">Подключить бесплатно</span>
+      </button>
+    </section>
+    <section class="price">
+      <h2 class="price__title">Стоимость тарифов</h2>
+      <div class="price__wrap">
+        <article class="card card--economy">
+          <div class="card__price">
+            <h3 class="card__rate">Тариф «Эконом»</h3>
+            <p class="card__cost card__cost--old"></p>
+            <p class="card__cost card__cost--now">Бесплатно</p>
+            <p class="card__cost card__cost--discount"></p>
+            <ul class="card__list">
+              <li class="card__item">Количество виджетов</li>
+              <li class="card__item card__item--amount">1</li>
+              <li class="card__item">Пространство для видео</li>
+              <li class="card__item card__item--amount">100 мб</li>
+              <li class="card__item">Настройка CTA-кнопки</li>
+              <li class="card__item card__item--minus">
+                <span class="visually-hidden">-</span>
+              </li>
+              <li class="card__item">Отсутствие вотермарка</li>
+              <li class="card__item card__item--minus">
+                <span class="visually-hidden">-</span>
+              </li>
+              <li class="card__item">Настройка внешнего вида</li>
+              <li class="card__item card__item--minus">
+                <span class="visually-hidden">-</span>
+              </li>
+            </ul>
+            <button class="card__button button button--card">
+              <span class="button__text">Подключить тариф</span>
             </button>
-            <label class="contact__radio">
-              <input type="radio" name="radio" />
-              <span class="contact__text">Нажимая на кнопку «отправить», я даю согласие
-                <a href="#" class="contact__link">
-                  на обработку персональных данных.</a></span>
-            </label>
           </div>
-        </form>
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="footer__wrap info">
-        <a href="#" class="info__logo logo logo--footer">
-          <img src="img/logo.svg" alt="«AppInion»" width="101" height="48" />
-        </a>
-        <div class="info__play">
-          <a href="#" class="info__link info__link--app"> <span class="visually-hidden">App Store</span></a>
-          <a href="#" class="info__link info__link--google"> <span class="visually-hidden">Google Play</span></a>
+        </article>
+        <article class="card card--medium">
+          <div class="card__price">
+            <h3 class="card__rate">Тариф «Медиум»</h3>
+            <p class="card__cost card__cost--old">1200 ₽</p>
+            <p class="card__cost card__cost--now">690 ₽</p>
+            <p class="card__cost card__cost--discount">
+              7452 ₽ в год (экономия 10%)
+            </p>
+            <ul class="card__list">
+              <li class="card__item">Количество виджетов</li>
+              <li class="card__item card__item--unlim">
+                <span class="visually-hidden">безлимит</span>
+              </li>
+              <li class="card__item">Пространство для видео</li>
+              <li class="card__item card__item--amount">1 гб</li>
+              <li class="card__item">Настройка CTA-кнопки</li>
+              <li class="card__item card__item--plus">
+                <span class="visually-hidden">+</span>
+              </li>
+              <li class="card__item">Отсутствие вотермарка</li>
+              <li class="card__item card__item--minus">
+                <span class="visually-hidden">-</span>
+              </li>
+              <li class="card__item">Настройка внешнего вида</li>
+              <li class="card__item card__item--minus">
+                <span class="visually-hidden">-</span>
+              </li>
+            </ul>
+            <button class="card__button button button--card">
+              <span class="button__text">Подключить тариф</span>
+            </button>
+          </div>
+        </article>
+        <article class="card card--business">
+          <div class="card__price">
+            <h3 class="card__rate">Тариф «Бизнес»</h3>
+            <p class="card__cost card__cost--old">1490 ₽</p>
+            <p class="card__cost card__cost--now">990 ₽</p>
+            <p class="card__cost card__cost--discount">
+              10890 ₽ в год (экономия 10%)
+            </p>
+            <ul class="card__list">
+              <li class="card__item">Количество виджетов</li>
+              <li class="card__item card__item--unlim">
+                <span class="visually-hidden">безлимит</span>
+              </li>
+              <li class="card__item">Пространство для видео</li>
+              <li class="card__item card__item--amount">10 гб</li>
+              <li class="card__item">Настройка CTA-кнопки</li>
+              <li class="card__item card__item--plus">
+                <span class="visually-hidden">+</span>
+              </li>
+              <li class="card__item">Отсутствие вотермарка</li>
+              <li class="card__item card__item--plus">
+                <span class="visually-hidden">+</span>
+              </li>
+              <li class="card__item">Настройка внешнего вида</li>
+              <li class="card__item card__item--plus">
+                <span class="visually-hidden">+</span>
+              </li>
+            </ul>
+            <button class="card__button button button--card">
+              <span class="button__text">Подключить тариф</span>
+            </button>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="connection">
+      <h2 class="connection__title">Связаться с нами</h2>
+      <p class="connection__text">
+        Поможем с установкой, если у вас возникнут проблемы!
+      </p>
+      <form class="contact">
+        <fieldset class="contact__fieldset">
+          <legend class="contact__legend">Ваше имя*</legend>
+          <input class="contact__input disabled" type="text" name="name" placeholder="Алексей" id="name" />
+        </fieldset>
+        <fieldset class="contact__fieldset">
+          <legend class="contact__legend">Электронный адрес*</legend>
+          <input class="contact__input disabled" type="email" name="email" placeholder="mail@gmail.com"
+            id="emailcontact" />
+        </fieldset>
+        <label class="contact__address">
+          <input class="contact__input contact__input--address" type="url" name="address"
+            placeholder="Адрес вашего сайта*" id="address" />
+        </label>
+        <textarea class="contact__textarea" name="comment" id="comment" cols="30" rows="10"
+          placeholder="Комментарий"></textarea>
+        <div class="contact__inner">
+          <button class="button button--contact disabled" type="submit" value="Отправить">
+            <span class="button__text">Отправить</span>
+          </button>
+          <label class="contact__radio">
+            <input type="radio" name="radio" />
+            <span class="contact__text">Нажимая на кнопку «отправить», я даю согласие
+              <a href="#" class="contact__link">
+                на обработку персональных данных.</a></span>
+          </label>
         </div>
-        <ul class="info__list">
-          <li class="info__item info__item--phone">
-            <a href="88002512223" class="info__contact info__contact--bold">8-800-251-22-23</a>
-          </li>
-          <li class="info__item info__item--mail">
-            <a href="mailto:info@review.ru" class="info__contact">info@review.ru</a>
-          </li>
-        </ul>
-        <ul class="info__social social">
-          <li class="social__item">
-            <a href="#" class="social__link social__link--vk">
-              <span class="visually-hidden">BK</span></a>
-          </li>
-          <li class="social__item">
-            <a href="#" class="social__link social__link--facebook">
-              <span class="visually-hidden">facebook</span></a>
-          </li>
-          <li class="social__item">
-            <a href="#" class="social__link social__link--instagram">
-              <span class="visually-hidden">instagram</span></a>
-          </li>
-        </ul>
+      </form>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__wrap info">
+      <a href="#" class="info__logo logo logo--footer">
+        <img src="img/logo.svg" alt="«AppInion»" width="101" height="48" />
+      </a>
+      <div class="info__play">
+        <a href="#" class="info__link info__link--app"> <span class="visually-hidden">App Store</span></a>
+        <a href="#" class="info__link info__link--google"> <span class="visually-hidden">Google Play</span></a>
+      </div>
+      <ul class="info__list">
+        <li class="info__item info__item--phone">
+          <a href="88002512223" class="info__contact info__contact--bold">8-800-251-22-23</a>
+        </li>
+        <li class="info__item info__item--mail">
+          <a href="mailto:info@review.ru" class="info__contact">info@review.ru</a>
+        </li>
+      </ul>
+      <ul class="info__social social">
+        <li class="social__item">
+          <a href="#" class="social__link social__link--vk">
+            <span class="visually-hidden">BK</span></a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link social__link--facebook">
+            <span class="visually-hidden">facebook</span></a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link social__link--instagram">
+            <span class="visually-hidden">instagram</span></a>
+        </li>
+      </ul>
 
-      </div>
-      <div class="footer__wrap navigation">
-        <ul class="navigation__list">
-          <li class="navigation__item">
-            <a href="#" class="navigation__link"><span class="navigation__text">Тарифы</span></a>
-          </li>
-          <li class="navigation__item">
-            <a href="#" class="navigation__link"><span class="navigation__text">О нас</span></a>
-          </li>
-          <li class="navigation__item">
-            <a href="#" class="navigation__link"><span class="navigation__text">Блог</span></a>
-          </li>
-          <li class="navigation__item">
-            <a href="#" class="navigation__link"><span class="navigation__text">Личный кабинет</span></a>
-          </li>
-          <li class="navigation__item">
-            <a href="#" class="navigation__link"><span class="navigation__text">Возможности</span></a>
-          </li>
-          <li class="navigation__item">
-            <a href="#" class="navigation__link"><span class="navigation__text">Партнерам</span></a>
-          </li>
-        </ul>
-      </div>
-      <div class="footer__wrap deal">
-        <span class="deal__copy"> 2021 &copy; Все материалы данного сайта под защитой авторского права.
-          Копирование запрещено.</span>
-        <ul class="deal__list">
-          <li class="deal__item"><a href="#" class="deal__link"><span class="deal__text">Политика
-                конфиденциальности</span></a></li>
-          <li class="deal__item"><a href="#" class="deal__link"><span class="deal__text">Публичная оферта</span></a>
-          </li>
-          <li class="deal__item"><a href="#" class="deal__link"><span class="deal__text">Пользовательское
-                соглашение</span></a></li>
-          <li class="deal__item"><span class="deal__text">Разработка сайта:
-              <a href="#" class="deal__link">www.appinion.com</a></span></li>
-        </ul>
-      </div>
-    </footer>
-    <script src="js/app.min.js"></script>
-  </body>
-
-</html>.js?_v=20220511132523"></script>
-  </body>
+    </div>
+    <div class="footer__wrap navigation">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a href="#" class="navigation__link"><span class="navigation__text">Тарифы</span></a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link"><span class="navigation__text">О нас</span></a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link"><span class="navigation__text">Блог</span></a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link"><span class="navigation__text">Личный кабинет</span></a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link"><span class="navigation__text">Возможности</span></a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link"><span class="navigation__text">Партнерам</span></a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__wrap deal">
+      <span class="deal__copy"> 2021 &copy; Все материалы данного сайта под защитой авторского права.
+        Копирование запрещено.</span>
+      <ul class="deal__list">
+        <li class="deal__item"><a href="#" class="deal__link"><span class="deal__text">Политика
+              конфиденциальности</span></a></li>
+        <li class="deal__item"><a href="#" class="deal__link"><span class="deal__text">Публичная оферта</span></a>
+        </li>
+        <li class="deal__item"><a href="#" class="deal__link"><span class="deal__text">Пользовательское
+              соглашение</span></a></li>
+        <li class="deal__item"><span class="deal__text">Разработка сайта:
+            <a href="#" class="deal__link">www.appinion.com</a></span></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="js/app.min.js"></script>
+  <script>
+    (function () {
+      function testWebP(callback) {
+        var webP = new Image()
+        webP.onload = webP.onerror = function () {
+          callback(webP.height === 2)
+        }
+        webP.src = "data:image/webp;base64,UklGRiIAAABXRUJQVlA4TAYAAAAvAAAAAAfQ//73v/+BiOh/AAA="
+      }
+      testWebP(function (support) {
+        document.documentElement.classList.add(support ? 'webp' : 'no-webp')
+      })
+    })();
+  </script>
+</body>
 
 </html>
